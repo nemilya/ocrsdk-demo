@@ -51,7 +51,7 @@ http://ocrsdk.com/plans-and-pricing/
     helpers.rb
     README.md
 
-Приложение на фреймворке Sinatra.
+Приложение на Ruby фреймворке (Sinatra)[http://sinatraruby.ru].
 
 В папке `config` находится `ocr_sdk.yml` - с ид приложения и паролем,
 их необходимо получить после регистрации на сайте.

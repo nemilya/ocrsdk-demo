@@ -10,7 +10,7 @@
     <td>
       <%= @task_info[:state] %>
       <% if @task_info[:state] != 'Completed' %>
-        <a href="#" onclick="window.location.reload()">Reload</a>
+        <b><a href="#" onclick="window.location.reload()">Reload</a></b>
       <% end %>
     </td>
   </tr>
