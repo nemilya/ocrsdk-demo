@@ -2,10 +2,6 @@ Arabic:
   files:
     - path: "arabic_1.tif"
 
-Chinese:
-  files:
-    - path: "Chinese.jpg"
-    
 English:
   files:
     - path: "Scanned_documents/New Image.JPG"
