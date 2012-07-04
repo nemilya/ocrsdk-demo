@@ -15,7 +15,7 @@ before do
 end
 
 get "/" do
-  @languages = @picture_samples.keys.sort
+  @languages = get_languages
   @files = get_files_of_lang_with_size(params[:lang]) if params[:lang]
   erb :index
 end

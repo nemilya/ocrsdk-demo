@@ -1,6 +1,6 @@
 helpers do
   def get_languages
-    @picture_samples.keys
+    @picture_samples.keys.sort
   end
 
   def get_files_of_lang(lang)

@@ -2,9 +2,7 @@
   <tr>
     <td width="200"><%= erb :"_select_lang" %></td>
     <td valign="top">
-      <% if @files %>
-        <%= erb :"_select_file" %>
-      <% end %>
+      <%= erb :"_select_file" if @files %>
     </td>
   </tr>
 </table>
