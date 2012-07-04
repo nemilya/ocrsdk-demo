@@ -84,6 +84,9 @@ http://ocrsdk.com/help/picture_samples.zip (http://ocrsdk.com/documentation/samp
 Развёртывание на cloudfoundry.com
 =================================
 
+(CloudFoundry)[http://cloudfoundry.com] - это облачный сервис предоставляющий 
+бесплатный хостинг на SaaS платформе CloudFoundry.
+
 Необходимо получить аккаунт на cloudfoundry.com, после этого установить гем
 `vmc`. 
 
@@ -91,7 +94,7 @@ http://ocrsdk.com/help/picture_samples.zip (http://ocrsdk.com/documentation/samp
 
     bundle package
 
-После этого развёртваем приложение на Cloudfoundry, на все вопросы отвечаем по дефолту:
+После этого развёртываем приложение на Cloudfoundry, на все вопросы отвечаем по дефолту:
 
     vmc push your-app-name
 
@@ -102,4 +105,11 @@ http://ocrsdk.com/help/picture_samples.zip (http://ocrsdk.com/documentation/samp
 доступа к SDK, и настроен файл `config/picture_samples.yml` - 
 соответственно должена быть папка с этими файлами (я загрузил для демки - не все демо-файлы,
 для уменьшения общего размера приложения).
+
+
+Для деплоя приложения после какого либо изменения в файлах:
+
+    vmc update your-app-name
+
+Автоматически будут загружены изменённые файлы, и перестартовано приложение.
 
