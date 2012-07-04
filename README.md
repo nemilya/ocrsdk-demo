@@ -51,7 +51,7 @@ http://ocrsdk.com/plans-and-pricing/
     helpers.rb
     README.md
 
-Приложение на Ruby фреймворке (Sinatra)[http://sinatraruby.ru].
+Приложение на Ruby фреймворке [Sinatra](http://sinatraruby.ru).
 
 В папке `config` находится `ocr_sdk.yml` - с ид приложения и паролем,
 их необходимо получить после регистрации на сайте.
@@ -84,7 +84,7 @@ http://ocrsdk.com/help/picture_samples.zip (http://ocrsdk.com/documentation/samp
 Развёртывание на cloudfoundry.com
 =================================
 
-(CloudFoundry)[http://cloudfoundry.com] - это облачный сервис предоставляющий 
+[CloudFoundry](http://cloudfoundry.com) - это облачный сервис предоставляющий 
 бесплатный хостинг на SaaS платформе CloudFoundry.
 
 Необходимо получить аккаунт на cloudfoundry.com, после этого установить гем
