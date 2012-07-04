@@ -1,0 +1,11 @@
+<form action="" method="get">
+<b>Select Languages:</b>
+  <br>
+  <select name="lang" size="7" onchange="location.href='?lang='+this[this.selectedIndex].value">
+    <% @languages.each do |lang| %>
+      <option <%= 'selected' if params[:lang].to_s == lang %> value="<%= lang %>"><%= lang %></option>
+    <% end %>
+  </select>
+  <br>
+  <input type="submit" value="Next &rarr;">
+</form>

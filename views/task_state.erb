@@ -1,0 +1,27 @@
+<h2>Task Registered</h2>
+
+<table>
+  <tr>
+    <td>Task id:</td>
+    <td><%= params[:task_id] %></td>
+  </tr>
+  <tr>
+    <td>Status:</td>
+    <td>
+      <%= @task_info[:state] %>
+      <% if @task_info[:state] != 'Completed' %>
+        <a href="#" onclick="window.location.reload()">Reload</a>
+      <% end %>
+    </td>
+  </tr>
+  <% if @task_info[:download_url] %>
+  <tr>
+    <td></td>
+    <td>
+      <b><a href="<%= @task_info[:download_url]%>">download</a></b>
+      |
+      <a href="#" onclick="window.close()">close</a>
+    </td>
+  </tr>
+  <% end %>
+</table>

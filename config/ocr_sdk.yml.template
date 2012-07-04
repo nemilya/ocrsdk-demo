@@ -1,0 +1,6 @@
+# getting this after register application on 
+# http://cloud.ocrsdk.com
+#
+ocr_sdk:
+  app_id: ...
+  pwd: ...

@@ -1,0 +1,17 @@
+<b>Sample files for <%= params[:lang] %></b>
+<table>
+<% @files.each do |file| %>
+  <tr>
+    <td>
+      <i><%= file['path'] %></i>
+    </td>
+    <td>
+      <%= size_in_mb file['size'] %>
+    </td>
+    <td>
+      <a target="_blank" href="<%= get_web_path(params[:lang], file['path'])%>">preview</a>
+      |
+      <a target="_blank" href="/do_ocr?lang=<%= params[:lang] %>&file_path=<%= file['path'] %>">start OCR!</a> &rarr; 
+    </td>
+  <br>
+<% end %>

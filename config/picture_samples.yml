@@ -1,0 +1,47 @@
+Arabic:
+  files:
+    - path: "arabic_1.tif"
+
+Chinese:
+  files:
+    - path: "Chinese.jpg"
+    
+English:
+  files:
+    - path: "Scanned_documents/New Image.JPG"
+      type: "Scanned_documents"
+    - path: "Scanned_documents/Picture_003.jpg"
+      type: "Scanned_documents"
+
+French:
+  files:
+    - path: "[Untitled]001.jpg"
+    - path: "MobIMG_0124.jpg"
+
+German:
+  files:
+    - path: "MobText 2010-09-01-005.jpg"
+    - path: "New Image.JPG"
+
+Italian:
+  files:
+    - path: "Copy of [Untitled]001.jpg"
+    - path: "MobText 2010-09-01-006.jpg"
+
+Japanese:
+  files:
+    - path: "[Untitled]001.jpg"
+    - path: "Japanese.jpg"
+
+Korean:
+  files:
+    - path: "Korean.JPG"
+
+Russian:
+  files:
+    - path: "[Untitled]001.jpg"
+
+Spanish:
+  files:
+    - path: "[Untitled]001.jpg"
+    - path: "MobText 2010-09-01-008.jpg"

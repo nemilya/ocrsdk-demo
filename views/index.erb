@@ -1,0 +1,10 @@
+<table width="800">
+  <tr>
+    <td width="200"><%= erb :"_select_lang" %></td>
+    <td valign="top">
+      <% if @files %>
+        <%= erb :"_select_file" %>
+      <% end %>
+    </td>
+  </tr>
+</table>
